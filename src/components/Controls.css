@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+.controls-main {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(24, 24, 24);
+  height: 16vh;
+}
+.buttons {
+  width: 6vh;
+  height: 6vh;
+  background-color: rgb(31, 223, 100);
+  color: black;
+  font-size: 2.7vh;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons:hover {
+  background-color: white;
+  transition: 0.2s ease-in-out;
+}
+.buttons-section {
+  display: flex;
+  gap: 20px;
+}
+.current {
+  font-size: large;
+  font-weight: 600;
+  color: white;
+}

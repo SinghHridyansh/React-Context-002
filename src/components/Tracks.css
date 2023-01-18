@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+.Tracks-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.274);
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.Tracks-main button {
+  background-color: rgba(0, 0, 0, 0.274);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  height: 4vh;
+  width: 4vh;
+}
+.song-title {
+  margin-left: 3.5vh;
+}
